@@ -1,0 +1,12 @@
+FROM node:5
+
+COPY wisdota-shared-code /shared-code
+WORKDIR /shared-code
+RUN npm install
+
+COPY wisdota-user-stats/src /source
+WORKDIR /source
+RUN npm install
+
+CMD ["node", "user-stats.js"]
+

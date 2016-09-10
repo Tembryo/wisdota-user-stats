@@ -1,0 +1,11 @@
+{
+    "name": "wisdota-dataset-export",
+    "version": "0.0.1",
+    "author": "fischerq",
+    "main": "user-stats.js",
+    "dependencies": {
+        "async": "^1.5.0",
+        "csv-write-stream": "^2.0.0"
+    }
+}
+
